@@ -1,0 +1,29 @@
+.buttons {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+button {
+  color: black;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+button:hover {
+  text-shadow: none;
+  border: solid 2px black;
+  color: black;
+}
+
+.trick-deck-button {
+  background-color: orange;
+}
