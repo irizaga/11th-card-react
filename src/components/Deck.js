@@ -1,5 +1,5 @@
 import { useState } from "react";
-import newDeck from '../utils/Utils';
+import newDeck from '../utils/Utils'
 
 function DeckBuilder() {
   const [showTrickDeck, setShowTrickDeck] = useState([]);
