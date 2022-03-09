@@ -22,6 +22,7 @@ button:hover {
   text-shadow: none;
   border: solid 2px black;
   color: black;
+  border: solid 2px black;
 }
 
 .trick-deck-button {

@@ -1,6 +1,7 @@
 @import 'styles/generic/_resets.css';
 
 @import 'styles/elements/_body.css';
+@import 'styles/elements/_break.css';
 
 @import 'styles/components/_button.css';
 @import 'styles/components/_cards.css';

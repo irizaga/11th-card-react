@@ -8,36 +8,27 @@
   padding: 5px;
   margin: 5px;
   border-width: 1px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 30px;
 }
 
 .spades {
   color: black;
   background-image: url(../../images/spades.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 30px;
 }
 
 .clubs {
   color: black;
   background-image: url(../../images/clubs.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 30px;
 }
 
 .hearts {
   color: red;
   background-image: url(../../images/hearts.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 30px;
 }
 
 .diamonds {
   color: red;
   background-image: url(../../images/diamonds.png);
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-  background-size: 30px;
 }

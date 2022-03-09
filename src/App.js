@@ -1,9 +1,9 @@
 import React from 'react';
-import DeckBuilder from "./components/Deck";
+import Main from "./components/Main";
 
 function App() {
   return (
-    <DeckBuilder />
+    <Main />
   );
 }
 
