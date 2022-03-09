@@ -1,6 +1,7 @@
-body {
-  margin: 10px;
-  font-family: sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import 'styles/generic/_resets.css';
+
+@import 'styles/elements/_body.css';
+
+@import 'styles/components/_button.css';
+@import 'styles/components/_cards.css';
+@import 'styles/components/_deck.css';
