@@ -1,18 +1,18 @@
 import { useState } from "react";
-import NewDeck from './NewDeck';
+import newDeck from './newDeck';
 import Cards from './Cards';
 
-function Main() {
-  const NEW_DECK = 'full';
-  const SHUFFLED_DECK = 'shuffled';
-  const TRICK_DECK = 'trick';
+const NEW_DECK = 'full';
+const SHUFFLED_DECK = 'shuffled';
+const TRICK_DECK = 'trick';
 
+function Main() {
   const [currentDeck, setCurrentDeck] = useState(NEW_DECK);
 
   return (
     <>
       <div id="cards">
-        <Cards deck={NewDeck(currentDeck)}/> 
+        <Cards deck={newDeck(currentDeck)}/> 
       </div>
       <div className="buttons">
         <button className="full-deck-button" onClick={() => 

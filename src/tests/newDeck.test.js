@@ -1,8 +1,8 @@
-import NewDeck from '../components/NewDeck';
+import newDeck from '../components/newDeck';
 
 describe('Deck', () => {
-  const deck = NewDeck('full');
-  const trickDeck = NewDeck('trick')
+  const deck = newDeck('full');
+  const trickDeck = newDeck('trick')
 
   it ('returns correct number of cards', () => {
     expect(deck.length).toEqual(52);
