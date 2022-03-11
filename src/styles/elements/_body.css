@@ -4,3 +4,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.trick-text {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.picked-card {
+  color: black;
+  background-color: orange;
+  margin: 0 10px;
+}

@@ -32,3 +32,9 @@
   color: red;
   background-image: url(../../images/diamonds.png);
 }
+
+#cards p {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}

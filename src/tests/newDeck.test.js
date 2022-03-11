@@ -1,6 +1,6 @@
 import newDeck from '../components/newDeck';
 
-describe('Deck', () => {
+describe('newDeck', () => {
   const deck = newDeck();
 
   it ('returns correct number of cards', () => {
