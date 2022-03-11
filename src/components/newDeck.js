@@ -15,15 +15,10 @@ function sliceDeck(deck) {
   return trickDeck;
 }
 
-function NewDeck(deckType) {
+function newDeck() {
   const deck = populateDeck();
-  const shuffled = shuffle([...deck]);
-  
-  switch (deckType){
-    case 'full': return deck;
-    case 'shuffled': return shuffled;
-    case 'trick': return sliceDeck([...shuffled]);   
-  }
+
+  return sliceDeck((shuffle([...deck]))); 
 }
 
-export default NewDeck;
+export default newDeck;
