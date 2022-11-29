@@ -19,17 +19,12 @@ button {
 }
 
 button:hover {
+  text-shadow: none;
+  border: solid 2px black;
+  color: black;
   border: solid 2px black;
 }
 
-.full-deck-button {
-  background-color: #87ceeb;
-}
-
-.shuffle-deck-button {
-  background-color: #32cd32;
-}
-
-.trick-deck-button {
+.select-row-button {
   background-color: orange;
 }

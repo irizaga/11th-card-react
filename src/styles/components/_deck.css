@@ -1,10 +1,13 @@
 #cards {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
-  column-gap: 10px;
   justify-content: center;
   font-family: sans-serif;
   font-weight: bold;
   font-size: 1em;
   text-align: center;
+}
+
+.first-row, .second-row, .third-row {
+  display: flex;
+  flex-wrap: wrap;
 }
